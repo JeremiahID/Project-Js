@@ -20,6 +20,7 @@ function fizzBuzz(){
     console.log(number)
 }
 
+
 //This is a program to calculate for leap year
 
 const leapYear = prompt("Enter the year");
