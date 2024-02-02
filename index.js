@@ -1,5 +1,4 @@
 // This is the fizzBuzz games
-
 var number = [];
 count = 1;
 
