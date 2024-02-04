@@ -1,7 +1,7 @@
 // This is the fizzBuzz games
 
-// var number = [];
-// count = 1;
+var number = [];
+count = 1;
 
 // function fizzBuzz(){
 //     while(count <= 100){
@@ -16,9 +16,9 @@
 //         }
 //         count++;
 
-//     }
-//     console.log(number)
-// }
+    }
+    console.log(number)
+}
 
 //This is a program to calculate for leap year
 
@@ -57,17 +57,9 @@ function fibonacciGenerator (n){
         output = [0,1]
 
     } else {
-
-        output = [0,1]
-
-        for(var i = 2; i < n; i++){
-            output.push(output[output.length - 2] +
-                 output[output.length - 1]);
-        }
+        alert("This is not a leap Year")
     }
 
-    return output
 }
 
-output = fibonacciGenerator(9);
-console.log(output)
+calYear()
