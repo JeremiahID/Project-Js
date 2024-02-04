@@ -42,7 +42,7 @@ function calYear(){
 calYear()
 
 
-This is a program for the fibonacci logic
+// This is a program for the fibonacci logic
 
 
 function fibonacciGenerator (n){
