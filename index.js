@@ -60,9 +60,15 @@ function fibonacciGenerator (n){
         output = [0,1]
 
         for(counter =2; counter < n; counter++){
-            output =(output[output.length - 2] + output[output.length - 1])
+            output.push(output[output.length - 2] + output[output.length - 1])
         }
     }
 
+    return output
+
 }
 
+
+output = fibonacciGenerator(5)
+
+console.log(output)
