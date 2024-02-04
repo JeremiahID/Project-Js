@@ -69,6 +69,5 @@ function fibonacciGenerator (n){
     return output
 }
 
-
 output = fibonacciGenerator(9);
 console.log(output)
