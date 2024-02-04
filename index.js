@@ -20,7 +20,7 @@ count = 1;
     console.log(number)
 }
 
-This is a program to calculate for leap year
+// This is a program to calculate for leap year
 
 const leapYear = prompt("Enter the year");
 
@@ -60,7 +60,7 @@ function fibonacciGenerator (n){
         output = [0,1]
 
         for(counter =2; counter < n; counter++){
-
+            output =(output[output.length - 2] + output[output.length - 1])
         }
     }
 
