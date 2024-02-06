@@ -15,7 +15,6 @@ count = 1;
              number.push(count)
          }
          count++;
-
     }
     console.log(number)
 }
